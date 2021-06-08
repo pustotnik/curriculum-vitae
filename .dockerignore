@@ -1,0 +1,24 @@
+.git
+.github
+
+# Environments
+.env
+.venv
+env
+venv
+ENV
+env.bak
+venv.bak
+
+.vscode
+*.code-workspace
+archive
+
+out
+**/*.pdf
+**/*.log
+**/*.html
+**/*.swp
+**/*.docx
+**/*.rtf
+**/*.tuc

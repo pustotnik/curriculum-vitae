@@ -1,0 +1,74 @@
+{
+  "pageSetup" : {
+    "size": "A4",
+    "width": null,
+    "height": null,
+    "margin-top": "2cm",
+    "margin-bottom": "2cm",
+    "margin-left": "2cm",
+    "margin-right": "2cm",
+    "margin-gutter": "0cm",
+    "spacing-header": "5mm",
+    "spacing-footer": "5mm"
+  },
+  "styles" :
+  [
+
+    [
+      "mytable", {
+        "spaceBefore":0,
+        "spaceAfter":0,
+        "commands": [
+          [ "VALIGN", [ 0, 0 ], [ -1, -1 ], "TOP" ],
+          [ "TOPPADDING", [ 0, 0 ], [ -1, -1 ], 0 ],
+          [ "INNERGRID", [ 0, 0 ], [ -1, -1 ], 0.5, "black" ],
+
+          [ "LEFTPADDING", [ 0, 0 ], [ -1, -1 ], 0 ],
+          [ "ROWBACKGROUNDS", [0, 0], [-1, -1], ["#E0E0E0","#E0E0E0"]],
+          [ "BOX", [ 0, 0 ], [ -1, -1 ], 0.5, "black" ]
+        ],
+        "alignment": "TA_JUSTIFY",
+        "colWidths": ["7cm", null]
+      }
+    ],
+    [ "field-list", {
+      "parent": "bodytext",
+      "commands": [
+         [ "VALIGN", [ 0, 0 ], [ -1, -1 ], "TOP" ],
+         [ "TOPPADDING", [ 0, 0 ], [ -1, -1 ], 0 ]
+     ],
+     "alignment": "TA_JUSTIFY",
+     "colWidths": ["3cm", null],
+     "spaceBefore": 6
+    }],
+    ["table" , {
+        "spaceBefore":0,
+        "spaceAfter":0,
+        "alignment": "TA_CENTER",
+        "commands": [
+              [ "VALIGN", [ 0, 0 ], [ -1, -1 ], "TOP" ],
+              [ "INNERGRID", [ 0, 0 ], [ -1, -1 ], 0.5, "#E0E0E0" ],
+              [ "LEFTPADDING", [ 0, 0 ], [ -1, -1 ], 0 ],
+              [ "ROWBACKGROUNDS", [0, 0], [-1, -1], ["#E0E0E0","#E0E0E0"]],
+              [ "BOX", [ 0, 0 ], [ -1, -1 ], 0.5, "black" ]
+        ],
+        "colWidths": ["7cm", null]
+      }
+    ],
+    ["table-title" , {
+      "parent" : "heading4",
+      "alignment" : "TA_CENTER"
+    }],
+    ["table-heading" , {
+      "parent" : "heading",
+      "backColor" : "beige",
+      "alignment" : "TA_CENTER",
+      "valign" : "BOTTOM",
+      "borderPadding" : 0
+    }],
+    ["table-body", {
+      "parent" : "normal"
+    }]
+  ]
+}
+
