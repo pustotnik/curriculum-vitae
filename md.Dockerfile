@@ -25,15 +25,15 @@ RUN apt-get -y update \
 
 USER $USERNAME
 
-# WORKDIR is not recommended on github actions
-# see https://docs.github.com/en/actions/creating-actions/dockerfile-support-for-github-actions
-#WORKDIR /work
-RUN mkdir /work
+WORKDIR /work
+#RUN mkdir /work
 
 # copy all the files to the container
-COPY --chown=$USERNAME:$USERNAME . /work
+#COPY --chown=$USERNAME:$USERNAME . /work
+COPY --chown=$USERNAME:$USERNAME . .
 #RUN ./make.sh pdf html
-RUN cd /work; ./make.sh
+#RUN cd /work; ./make.sh
+RUN ./make.sh
 
 FROM scratch AS output
 COPY --from=build /work/out/* /

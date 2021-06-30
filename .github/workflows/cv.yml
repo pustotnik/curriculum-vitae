@@ -22,7 +22,7 @@ jobs:
         OUTPUT_DIR=${{ env.OUTPUT }}
         USERNAME=root OUTPUT_DIR=$OUTPUT_DIR ./build-with-docker.sh
         cd $OUTPUT_DIR
-        mv cv.html index.html
+        mv *.html index.html
       shell: bash
 
     - name: Upload artifacts
@@ -60,5 +60,5 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "${GITHUB_ACTOR}@actions.github.com"
           git add -A
-          git commit -m "Updated CV"
+          git commit -m "update CV"
           git push --force-with-lease origin ${{ env.BRANCH }}
