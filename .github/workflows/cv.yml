@@ -1,0 +1,61 @@
+name: CV
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: # manual trigger
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build CV
+      run: |
+        ./build-with-docker.sh
+      shell: bash
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: cv
+        path: out/
+        #path: |
+        #  *.html
+        #  *.css
+        #  *.pdf
+        #  *.docx
+
+  publish:
+    name: publish
+    #if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      BRANCH: gh-pages
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+        with:
+          ref: '${{ env.BRANCH }}'
+      - name: Obtain the build artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: cv
+          path: .
+      - name: Push the build artifacts to the repo branch
+        run: |
+          if [ -z "$(git status --porcelain=v1 2>/dev/null)" ]; then
+            echo "No changes, nothing to commit"
+            exit
+          fi
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "${GITHUB_ACTOR}@actions.github.com"
+          git add -A
+          git commit -m "Updated CV"
+          git push --force-with-lease origin ${{ env.BRANCH }}
