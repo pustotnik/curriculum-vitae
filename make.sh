@@ -47,7 +47,7 @@ convert_doc() {
                 $EXTRA_PARAMS \
                 --from markdown --to html \
                 --output "${OUTPUT_DIR}/${SAFE_FILENAME}.html" "$file" \
-                --metadata pagetitle="${FILENAME}"
+                --metadata pagetitle="${PAGE_TITLE}"
         ;;
         docx)
             echo "Generating: ${OUTPUT_DIR}/${FILENAME}.docx"
