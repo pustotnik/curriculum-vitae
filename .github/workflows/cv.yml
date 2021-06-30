@@ -10,6 +10,8 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-latest
+    env:
+      OUTPUT: output
 
     steps:
     - name: Checkout
@@ -17,19 +19,20 @@ jobs:
 
     - name: Build CV
       run: |
-        USERNAME=root ./build-with-docker.sh
+        OUTPUT_DIR=${{ env.OUTPUT }}
+        USERNAME=root OUTPUT_DIR=$OUTPUT_DIR ./build-with-docker.sh
+        cd $OUTPUT_DIR
+        mv cv.html index.html
       shell: bash
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
         name: cv
-        path: out/
-        #path: |
-        #  *.html
-        #  *.css
-        #  *.pdf
-        #  *.docx
+        path: |
+          ${{ env.OUTPUT }}/*.html
+          ${{ env.OUTPUT }}/*.pdf
+          ${{ env.OUTPUT }}/*.docx
 
   publish:
     name: publish
