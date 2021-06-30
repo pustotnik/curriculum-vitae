@@ -7,7 +7,7 @@ ARG USERNAME=docuser
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG='C.UTF-8'
 
-RUN useradd -m -G users $USERNAME
+RUN if [ "$USERNAME" != root ]; then useradd -m -G users $USERNAME; fi
 
 RUN apt-get -y update \
     && apt-get -y install wget context \
@@ -24,13 +24,19 @@ RUN apt-get -y update \
 ########## Make docs
 
 USER $USERNAME
-WORKDIR /work
+
+# WORKDIR is not recommended on github actions
+# see https://docs.github.com/en/actions/creating-actions/dockerfile-support-for-github-actions
+#WORKDIR /work
+RUN mkdir /work
+
 # copy all the files to the container
-COPY --chown=$USERNAME:$USERNAME . .
+COPY --chown=$USERNAME:$USERNAME . /work
 #RUN ./make.sh pdf html
-RUN ./make.sh
+RUN cd /work; ./make.sh
 
 FROM scratch AS output
-COPY --from=build /work/out/*.pdf /
-COPY --from=build /work/out/*.html /
-COPY --from=build /work/out/*.docx /
+COPY --from=build /work/out/* /
+#COPY --from=build /work/out/*.pdf /
+#COPY --from=build /work/out/*.html /
+#COPY --from=build /work/out/*.docx /

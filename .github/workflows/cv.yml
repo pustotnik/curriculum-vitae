@@ -17,7 +17,7 @@ jobs:
 
     - name: Build CV
       run: |
-        ./build-with-docker.sh
+        USERNAME=root ./build-with-docker.sh
       shell: bash
 
     - name: Upload artifacts

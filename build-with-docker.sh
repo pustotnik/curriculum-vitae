@@ -9,9 +9,15 @@ cd "$( dirname "$(realpath ${BASH_SOURCE[0]:-$0})" )"
 
 source ./config.sh
 
+USERNAME=${USERNAME:-docuser}
+
 IMAGE_TAG="curriculum-vitae:latest"
 
-docker build -f ./md.Dockerfile --output $OUTPUT_DIR -t $IMAGE_TAG $PROJECT_ROOT
+export DOCKER_BUILDKIT=1
+
+docker build -f ./md.Dockerfile \
+    --build-arg USERNAME="${USERNAME}" \
+    --output $OUTPUT_DIR -t $IMAGE_TAG $PROJECT_ROOT
 
 if [ $? -ne 0 ]; then
     echo "docker build failed or interrupted"
