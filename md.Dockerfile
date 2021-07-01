@@ -11,8 +11,15 @@ RUN if [ "$USERNAME" != root ]; then useradd -m -G users $USERNAME; fi
 
 RUN apt-get -y update \
     && apt-get -y install wget context \
+    && true
+
+RUN true \
     && wget https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-1-amd64.deb \
     && dpkg -i pandoc-2.2.1-1-amd64.deb  && rm pandoc-*.deb \
+    \
+    #&& wget https://github.com/jgm/pandoc/releases/download/2.10.1/pandoc-2.10.1-1-amd64.deb \
+    #&& dpkg -i pandoc-2.10.1-1-amd64.deb  && rm pandoc-*.deb \
+    \
     && apt-get remove -y wget \
     && apt-get --purge -y autoremove \
     && apt-get clean \
