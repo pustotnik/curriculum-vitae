@@ -4,7 +4,15 @@ Alexander Magola
 
 > **Location:** Russia, Novosibirsk | **Born:** 1978
 
-> [Email](mailto:magola.a.s@gmail.com) | [LinkedIn](https://www.linkedin.com/in/alexander-magola) | [GitHub](https://github.com/pustotnik) | [GitLab](https://gitlab.com/pustotnik) | [BitBucket](https://bitbucket.org/pustotnik/)
+> [Email](mailto:magola.a.s@gmail.com) |
+[LinkedIn](https://www.linkedin.com/in/alexander-magola) |
+[GitHub](https://github.com/pustotnik) |
+[GitLab](https://gitlab.com/pustotnik) |
+[BitBucket](https://bitbucket.org/pustotnik/)
+
+> [pdf version](https://pustotnik.github.io/curriculum-vitae/cv.pdf) •
+[html version](https://pustotnik.github.io/curriculum-vitae/) •
+[docx version](https://pustotnik.github.io/curriculum-vitae/cv.docx)
 
 ----
 
@@ -15,6 +23,11 @@ of a code/product and prefer Linux environment as for work as for home. I can an
 like to design/improve architecture of projects and to do some researches.
 I like simple but flexible solutions when it's possible even though they aren't trendy.
 And of course I'm ready to learn something new.
+
+Interested in many things, including: Linux and relative technologies,
+distributed/networking/sync/etc technologies/systems/applications/etc,
+high load, virtual things, embedded systems,
+digital privacy, cyber security, etc.
 
 <!--
 I have been trying to improve my English and
