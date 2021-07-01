@@ -30,6 +30,7 @@ convert_doc() {
             pandoc --standalone --template "${STYLES_DIR}/${TEX_STYLE}.tex" \
                 --from markdown --to context \
                 --variable papersize=A4 \
+                --variable title="${DOC_TITLE}" \
                 --output "${OUTPUT_DIR}/${SAFE_FILENAME}.tex" "$file" > /dev/null
 
             mtxrun --path="${OUTPUT_DIR}" --result="${SAFE_FILENAME}.pdf" \
@@ -47,7 +48,7 @@ convert_doc() {
                 $EXTRA_PARAMS \
                 --from markdown --to html \
                 --output "${OUTPUT_DIR}/${SAFE_FILENAME}.html" "$file" \
-                --metadata pagetitle="${PAGE_TITLE}"
+                --metadata pagetitle="${DOC_TITLE}"
         ;;
         docx)
             echo "Generating: ${OUTPUT_DIR}/${FILENAME}.docx"
