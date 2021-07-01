@@ -48,7 +48,7 @@ convert_doc() {
 
             pandoc --standalone --include-in-header "${STYLES_DIR}/${CSS_STYLE}.css" \
                 $EXTRA_PARAMS \
-                --from markdown --to html \
+                --from markdown --to html5 \
                 --output "${OUTPUT_DIR}/${SAFE_FILENAME}.html" "$file" \
                 --metadata pagetitle="${DOC_TITLE}"
         ;;
