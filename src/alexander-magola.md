@@ -47,7 +47,9 @@ want to find a job in Europe, especially in the Netherlands.
   regular expressions
 - **Testing/CI**: GTest/GMock, GCC/Clang analyzers/sanitizers,
   Python unittest/pytest, Jenkins CI, TravisCI, GitHub Actions
+<!--
 - **Databases**: PostgreSQL, MySQL, BerkeleyDB
+-->
 - **Issue tracker**: Redmine, GitHub Issues, GitLab Issue Tracker
 
 ## Technical Experience
@@ -64,7 +66,7 @@ Jun 2013 — present time
       Markdown, reStructuredText, Sphinx (documentation generator)
     - **_Version control_**: Git, Mercurial
     - **_Operating Systems_**: GNU/Linux, MS Windows (tests only),
-      MacOS (TravisCI/GitHub Actions only)
+      MacOS (only with TravisCI and GitHub Actions)
 
 Apr 2012 — Feb 2017
 :   **Linux Team Leader** at [Signatec](https://www.signatec.ru/) [Russia, Novosibirsk]
