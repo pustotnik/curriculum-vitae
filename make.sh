@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # detect right directory and go into it
 cd "$( dirname "$(realpath ${BASH_SOURCE[0]:-$0})" )"
 
@@ -30,7 +32,7 @@ convert_doc() {
             pandoc --standalone --template "${STYLES_DIR}/${TEX_STYLE}.tex" \
                 --from markdown --to context \
                 --variable papersize=A4 \
-                --variable title="${DOC_TITLE}" \
+                --variable mydoctitle="${DOC_TITLE}" \
                 --output "${OUTPUT_DIR}/${SAFE_FILENAME}.tex" "$file" > /dev/null
 
             mtxrun --path="${OUTPUT_DIR}" --result="${SAFE_FILENAME}.pdf" \
