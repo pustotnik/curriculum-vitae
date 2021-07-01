@@ -10,9 +10,9 @@ Alexander Magola
 [GitLab](https://gitlab.com/pustotnik) |
 [BitBucket](https://bitbucket.org/pustotnik/)
 
-> [pdf version](https://pustotnik.github.io/curriculum-vitae/cv.pdf) •
+> [pdf version](https://pustotnik.github.io/curriculum-vitae/alexander-magola.pdf) •
 [html version](https://pustotnik.github.io/curriculum-vitae/) •
-[docx version](https://pustotnik.github.io/curriculum-vitae/cv.docx)
+[docx version](https://pustotnik.github.io/curriculum-vitae/alexander-magola.docx)
 
 ----
 
