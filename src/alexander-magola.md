@@ -26,7 +26,7 @@ And of course I'm ready to learn something new.
 
 Interested in many things, including: Linux and relative technologies,
 distributed/networking/sync/etc technologies/systems/applications/etc,
-high load, virtual things, embedded systems,
+high load, virtual things, embedded systems, automation, open source,
 digital privacy, cyber security, etc.
 
 <!--
