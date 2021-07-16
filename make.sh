@@ -24,8 +24,6 @@ convert_doc() {
     FILENAME=$(basename "$file" | sed 's/.md//g')
     SAFE_FILENAME=$(echo "$FILENAME" | sed 's/\s/_/g')
 
-    mkdir -p ${OUTPUT_DIR}
-
     case $convert_to in
         pdf)
             echo "Generating: ${OUTPUT_DIR}/${FILENAME}.pdf"
@@ -77,8 +75,13 @@ for act in $ARGS; do
         echo "Cleaning the ${OUTPUT_DIR}"
         rm -rf ${OUTPUT_DIR}/*
     else
+        mkdir -p ${OUTPUT_DIR}
         for file in "${SRC_FILES[@]}"; do
-            convert_doc "$act" "$file"
+            filename=$(basename "$file")
+            inputfile="${OUTPUT_DIR}/$filename"
+            cp "$file" "$inputfile"
+            sed -i 's/UPDATEDATE/'"$(date +"%Y-%m-%d")"'/' "$inputfile"
+            convert_doc "$act" "$inputfile"
         done
     fi
 done

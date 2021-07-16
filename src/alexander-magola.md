@@ -50,7 +50,6 @@ want to find a job in Europe, especially in the Netherlands.
 <!--
 - **Databases**: PostgreSQL, MySQL, BerkeleyDB
 -->
-- **Issue tracker**: Redmine, GitHub Issues, GitLab Issue Tracker
 
 ## Technical Experience
 
@@ -244,13 +243,6 @@ Sep 1995 — Jun 2000
     - **_Tools and technologies_**: Turbo Pascal, Turbo C, Borland C++ Builder,
       MS VB/VBA, MS Visual C++, MFC, STL, Win32 API
 
-<!--
-About education:
-https://en.wikipedia.org/wiki/Specialist_degree
-https://en.wikipedia.org/wiki/Engineer%27s_degree
-http://yermolovich.ru/board/1-1-0-2803
-https://www.scholaro.com/pro/News/is-russian-specialist-diploma-equivalent-to-a-masters-degree-199
-https://www.alberta.ca/assets/documents/russia-international-education-guide.pdf
-https://academia.stackexchange.com/questions/37856/can-my-specialist-degree-be-equalized-to-bachelor-degree
-https://forum.govorimpro.us/t/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4-%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/24910
--->
+----
+
+Last modified: UPDATEDATE
