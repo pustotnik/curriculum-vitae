@@ -17,12 +17,13 @@ Alexander Magola
 ----
 
 ## About me
-I'm a Linux software engineer with many years of experience.
-I always pay attention to the quality and to the performance (when it's necessary)
-of a code/product and prefer Linux environment as for work as for home. I can and
-like to design/improve architecture of projects and to do some researches.
-I like simple but flexible solutions when it's possible even though they aren't trendy.
-And of course I'm ready to learn something new.
+A multi-skilled Linux software engineer and team leader with 20 years of experience.
+As a self-starter I always pay attention to the quality and performance (when necessary) of
+a code/product and prefer to use Linux both at work and home.
+I like (and have a lot of experience) designing/improving project architecture
+and conducting research.
+I prefer simple but flexible solutions when possible. And it is important for me
+to find and implement the right solution.
 
 Interested in many things, including: Linux and relative technologies,
 distributed/networking/sync/etc technologies/systems/applications/etc,
@@ -38,13 +39,12 @@ want to find a job in Europe, especially in the Netherlands.
 - **Russian**: Native speaker
 - **English**: Intermediate
 
-## Main Technical skills (short list)
+## Main Technical Skills (short list)
 - **Operating Systems**: GNU/Linux, MS Windows
 - **Programming languages**: C/C++, Python, bash (basic skill)
 - **Version control**: Git, Mercurial
 - **Development Tools**: GCC, Clang, KVM/QEMU, Docker, Waf, MSVC
-- **Technologies**: Multithreading, IPC, Shared memory, Networking, RPC,
-  regular expressions
+- **Technologies**: Multithreading, IPC, Shared memory, Networking, RPC
 - **Testing/CI**: GTest/GMock, GCC/Clang analyzers/sanitizers,
   Python unittest/pytest, Jenkins CI, TravisCI, GitHub Actions
 <!--
@@ -57,29 +57,42 @@ want to find a job in Europe, especially in the Netherlands.
 Jun 2013 — present time
 :   **Open Source Developer**
 
-    It's attempt to develop some open source projects sometimes:
+    Developing some open source projects:
     [GitHub](https://github.com/pustotnik),  [GitLab](https://gitlab.com/pustotnik)
+
+    Most active and big project is own build system [ZenMake](https://github.com/pustotnik/zenmake)
+    for C/C++ and some other languages (Fortran, D) supporting GNU/Linux,
+    MacOS and MS Windows.
+    Worked on making easy to use and flexible config files without need to know
+    some programming language.
+    Made ready to use system with detailed [documentation](https://zenmake.readthedocs.io/)
+    and many [examples](https://github.com/pustotnik/zenmake/tree/master/demos).
+    However a lot of features were not implemented yet.
+    The unit/functional tests are regularly run in CI and covers more than 80%
+    of the code. This system is based on [Waf](https://waf.io/) but it is used
+    as a framework/engine here.
 
     - **_Programming languages_**: Python, bash
     - **_Tools and technologies_**: GCC, CLang, MSVC, Waf, Python unittest/pytest,
       pylint, python coverage, KVM/QEMU, Docker, TravisCI, GitHub Actions,
       Markdown, reStructuredText, Sphinx (documentation generator)
     - **_Version control_**: Git, Mercurial
+    - **_Issue tracker_**: GitHub Issues, GitLab Issue Tracker
     - **_Operating Systems_**: GNU/Linux, MS Windows (tests only),
       MacOS (only with TravisCI and GitHub Actions)
 
 Apr 2012 — Feb 2017
 :   **Linux Team Leader** at [Signatec](https://www.signatec.ru/) [Russia, Novosibirsk]
 
-    Managed a long-term Linux project Rapira of lawful interception of
-    internet traffic with a team of 5 C/C++ developers and 1-2 QA testers.
+    Managed a long-term Linux project of legal network surveillance
+    with a team of 5 C/C++ developers and 1-2 QA testers.
     This project had strong requirements for performance and stability.
     Designed many parts of the architecture. Developed some important/critical code.
     Reviewed other code of the project. Introduced several things to improve
-    quality of the project: GTest, gcov, LLVM Clang static analyzer, cppcheck,
-    AddressSanitizer/LeakSanitizer (GCC/Clang), -Werror. Tried to improve some
-    technical knowledge of the team and taught myself. Conducted daily short
-    meetings to review current state of the project (like daily scrum).
+    the quality of the project: GTest, gcov, LLVM Clang static analyzer, cppcheck,
+    AddressSanitizer/LeakSanitizer (GCC/Clang), -Werror. Helped the team improve
+    some technical knowledge. Conducted daily meetings
+    to review current state of the project.
     Made many important decisions including resolving problem of memory
     fragmentation.
 
@@ -93,7 +106,7 @@ Apr 2012 — Feb 2017
       - organizing small cluster of KVM/QEMU servers (Proxmox VE + simple backups of images)
         on 2 physical servers with roles: http proxy, SVN, hg/git server, Redmine,
         Jenkins CI (main + several agents)
-      - base Linux firmware image based on Gentoo with ability to install
+      - set of scripts to create base Linux firmware image based on Gentoo with ability to install
         on any computer
 
     **Experience in brief**:
@@ -111,9 +124,9 @@ Apr 2012 — Feb 2017
 Dec 2009 — Apr 2012
 :   **C++ Linux Software Engineer** at [Signatec](https://www.signatec.ru/) [Russia, Novosibirsk]
 
-    Was a main developer and one of architects of a system of distributed
+    Was a main developer and one of the architects of a system of distributed
     services DSS (for C++ SOA solutions on Linux, similar to WCF in .NET).
-    The system allowed to communicate different services between each other
+    The system allowed different services to communicate with each other
     using TCP/UDP/Unix (Local IPC) sockets and Shared memory
     by configuring files in XML/JSON formats. (C++, Linux)
 
@@ -124,11 +137,11 @@ Dec 2009 — Apr 2012
     (C++, Linux)
 
     Initiated and installed/configured Redmine as a issue tracker for use in
-    our team. Helped to learn how to use it.
+    our team. Helped the team learn how to use it.
     (Debian Linux, Redmine, Nginx)
 
     Made useful build system BDS based on Waf for C/C++ projects on Linux.
-    This system was being successfully used for local C/C++ projects
+    This system was successfully used for local C/C++ projects
     all the time I worked for this company. (Python, Waf, Linux)
 
     - **_Programming languages_**: C++, Python
@@ -141,22 +154,22 @@ Dec 2009 — Apr 2012
 Nov 2007 — Nov 2009
 :   **Project Manager/Team Leader** at [Internet Service](https://inetss.ru/) [Russia, Novosibirsk]
 
-    Designed architecture and developed experimental real-time web search system.
+    Designed architecture and developed an experimental real-time web search system.
     (Scala, Jabber/XMPP)
 
     Made research with some experiments for potential project of a web
     storage for user photos/pictures.
     (Python, Java, Hadoop/Hbase/HDFS, Lucene, PostgreSQL, Thrift)
 
-    Designed architecture and developed some back-end part of distributed DNS system.
+    Designed architecture and developed part of the back-end of a distributed DNS system.
     (Python, Twisted, BIND, BerkeleyDB with replications, PostgreSQL, AMQP, RabbitMQ)
 
     Managed web searching project Assista
     (similar to google search) with team of 2-5 front-end/back-end developers.
-    Was improving/developing the project core search engine solution
-    based on Sphinx (C++ open source search engine). Was fulfilling some sysadmin
+    Improved/developed the project core search engine solution
+    based on Sphinx (C++ open source search engine). Carried out some sysadmin
     tasks for the project remote computer cluster with more
-    than 100 servers (CentOS) using bash/ssh and own perl scripts. Was improving
+    than 100 servers (CentOS) using bash/ssh and own perl scripts. Improved
     the project architecture.
     (C++, Perl, MySQL, memcached, Sphinx, bash/ssh)
     This project was one of ambitious projects of the
@@ -216,9 +229,9 @@ Apr 2005 — Oct 2006
 Jan 2001 — Jun 2003
 :   **Software Developer** at Komsomolsk-on-Amur State Technical University ([KnASTU](https://knastu.ru/))
 
-    I was postgraduate in KnASTU and had task to develop a calculation program of
+    I was a postgraduate in KnASTU and had a task to develop a calculation program of
     stress-strain state of solid materials with cracks based on boundary element method.
-    This project was supposed to be my PhD thesis.
+    This project was part of my PhD thesis.
 
     - **_Tools and technologies_**: MS Visual C++, MFC, STL, Win32 API
 
