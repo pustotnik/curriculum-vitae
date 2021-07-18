@@ -43,23 +43,22 @@ want to find a job in Europe, especially in the Netherlands.
 - **Operating Systems**: GNU/Linux, MS Windows
 - **Programming languages**: C/C++, Python, bash (basic skill)
 - **Version control**: Git, Mercurial
-- **Development Tools**: GCC, Clang, KVM/QEMU, Docker, Waf, MSVC
+- **Development Tools**: GCC, Clang, KVM/QEMU, Docker, Waf
 - **Technologies**: Multithreading, IPC, Shared memory, Networking, RPC
 - **Testing/CI**: GTest/GMock, GCC/Clang analyzers/sanitizers,
   Python unittest/pytest, Jenkins CI, TravisCI, GitHub Actions
-<!--
-- **Databases**: PostgreSQL, MySQL, BerkeleyDB
--->
+- **Familiar**: Java, Perl, Lua, PostgreSQL, MySQL, MSVC
 
 ## Technical Experience
 
 Jun 2013 — present time
 :   **Open Source Developer**
 
-    Developing some open source projects:
+    Developing some open source projects. Links on:
     [GitHub](https://github.com/pustotnik),  [GitLab](https://gitlab.com/pustotnik)
 
-    The most active and biggest project is my own build system [ZenMake](https://github.com/pustotnik/zenmake)
+    The most active and biggest project I have been doing recently is my own
+    build system [ZenMake](https://github.com/pustotnik/zenmake)
     for C/C++ and some other languages (Fortran, D) supporting GNU/Linux,
     MacOS and MS Windows.
     Concentrated on making the build system easy to use, configurable via flexible
