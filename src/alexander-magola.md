@@ -19,7 +19,7 @@ Alexander Magola
 ## About me
 A multi-skilled Linux software engineer and team leader with 20 years of experience.
 As a self-starter I always pay attention to the quality and performance (when necessary) of
-a code/product and prefer to use Linux both at work and home.
+a code/product and prefer to use Linux both at work and at home.
 I like (and have a lot of experience) designing/improving project architecture
 and conducting research.
 I prefer simple but flexible solutions when possible. And it is important for me
@@ -59,17 +59,16 @@ Jun 2013 — present time
     Developing some open source projects:
     [GitHub](https://github.com/pustotnik),  [GitLab](https://gitlab.com/pustotnik)
 
-    Most active and big project is own build system [ZenMake](https://github.com/pustotnik/zenmake)
+    The most active and biggest project is my own build system [ZenMake](https://github.com/pustotnik/zenmake)
     for C/C++ and some other languages (Fortran, D) supporting GNU/Linux,
     MacOS and MS Windows.
-    Worked on making easy to use and flexible config files without need to know
-    some programming language.
-    Made ready to use system with detailed [documentation](https://zenmake.readthedocs.io/)
+    Concentrated on making the build system easy to use, configurable via flexible
+    config files and removing the need to know any programming language.
+    Made it ready to use with detailed [documentation](https://zenmake.readthedocs.io/)
     and many [examples](https://github.com/pustotnik/zenmake/tree/master/demos).
-    However a lot of features were not implemented yet.
-    The unit/functional tests are regularly run in CI and covers more than 80%
-    of the code. This system is based on [Waf](https://waf.io/) but it is used
-    as a framework/engine here.
+    The unit/functional tests are regularly run in CI and cover more than 80%
+    of the code. This system is based on [Waf](https://waf.io/) which is used
+    as a framework/engine.
 
     - **_Programming languages_**: Python, bash
     - **_Tools and technologies_**: GCC, CLang, MSVC, Waf, Python unittest/pytest,
@@ -87,12 +86,12 @@ Apr 2012 — Feb 2017
     with a team of 5 C/C++ developers and 1-2 QA testers.
     This project had strong requirements for performance and stability.
     Designed many parts of the architecture. Developed some important/critical code.
-    Reviewed other code of the project. Introduced several things to improve
+    Reviewed different components of the project. Introduced several things to improve
     the quality of the project: GTest, gcov, LLVM Clang static analyzer, cppcheck,
     AddressSanitizer/LeakSanitizer (GCC/Clang), -Werror. Helped the team improve
     some technical knowledge. Conducted daily meetings
     to review current state of the project.
-    Made many important decisions including resolving problem of memory
+    Made many important decisions including resolving a problem of memory
     fragmentation.
 
     Managed/improved my team workflow including:
@@ -105,7 +104,7 @@ Apr 2012 — Feb 2017
       - organizing small cluster of KVM/QEMU servers (Proxmox VE + simple backups of images)
         on 2 physical servers with roles: http proxy, SVN, hg/git server, Redmine,
         Jenkins CI (main + several agents)
-      - set of scripts to create base Linux firmware image based on Gentoo with ability to install
+      - set of scripts to create a Linux firmware image based on Gentoo with ability to install
         on any computer
 
     **Experience in brief**:
@@ -135,7 +134,7 @@ Dec 2009 — Apr 2012
     for local needs like networking, date/time, filesystem, threading, etc.
     (C++, Linux)
 
-    Initiated and installed/configured Redmine as a issue tracker for use in
+    Initiated and installed/configured Redmine as an issue tracker for use in
     our team. Helped the team learn how to use it.
     (Debian Linux, Redmine, Nginx)
 
@@ -168,7 +167,7 @@ Nov 2007 — Nov 2009
     Improved/developed the project core search engine solution
     based on Sphinx (C++ open source search engine). Carried out some sysadmin
     tasks for the project remote computer cluster with more
-    than 100 servers (CentOS) using bash/ssh and own perl scripts. Improved
+    than 100 servers (CentOS) using bash/ssh and my own perl scripts. Improved
     the project architecture.
     (C++, Perl, MySQL, memcached, Sphinx, bash/ssh)
     This project was one of ambitious projects of the
@@ -187,13 +186,13 @@ Nov 2007 — Nov 2009
 Nov 2006 — Oct 2007
 :   **Software Developer** at [Internet Service](https://inetss.ru/) [Russia, Novosibirsk]
 
-    Participated in startup project of drawing web application with ability of
+    Participated in a startup project of drawing web application with ability of
     recognition of hand-drawn shapes.
     Made experimental module of recognition (C++, OpenCV, Linux).
 
-    Was in a team of development of multi chat client-server application Avago supported
-    audio and video. Was involved in development as for client side
-    (C++, WTL, FFmpeg, MS Windows) as for server side (Java, Red5, MySQL, Linux)
+    Worked within a development team of a multi chat client-server application Avago supported
+    audio and video streaming. Was involved in development of both client side
+    (C++, WTL, FFmpeg, MS Windows) and server side (Java, Red5, MySQL, Linux)
     of the application.
 
     - **_Programming languages_**: C++, Java
@@ -209,13 +208,13 @@ Apr 2005 — Oct 2006
     Participated in improvement/expanding of web site for local
     billing system. (Perl, MySQL, Linux)
 
-    Made base of a project for the file storage system for web.
-    Participated in the architecture design and
+    Made base of a project for the web-oriented file storage system.
+    Participated in the architectural design and
     implementation of the front-end part. (Perl, Catalyst, MySQL, Linux)
 
     Made a client application for a HotSpot system. (C++, XML-RPC, MS Windows)
 
-    Developed a plug-in for FreeRADIUS for authentication, authorization and
+    Developed a FreeRADIUS plug-in for authentication, authorization and
     accounting internet sessions from pppd and VoIP calls from GnuGK for
     local billing system. (C, MySQL, Linux)
 
@@ -229,8 +228,8 @@ Jan 2001 — Jun 2003
 :   **Software Developer** at Komsomolsk-on-Amur State Technical University ([KnASTU](https://knastu.ru/))
 
     I was a postgraduate in KnASTU and had a task to develop a calculation program of
-    stress-strain state of solid materials with cracks based on boundary element method.
-    This project was part of my PhD thesis.
+    stress-strain state of solid materials with cracks based on the boundary element method.
+    This project was a part of my PhD thesis.
 
     - **_Tools and technologies_**: MS Visual C++, MFC, STL, Win32 API
 
