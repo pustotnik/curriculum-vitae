@@ -43,7 +43,7 @@ want to find a job in Europe, especially in the Netherlands.
 - **Operating Systems**: GNU/Linux, MS Windows
 - **Programming languages**: C/C++, Python, bash (basic skill)
 - **Version control**: Git, Mercurial
-- **Development Tools**: GCC, Clang, KVM/QEMU, Docker, Waf
+- **Development Tools**: GCC, Clang, KVM/QEMU, Docker/Docker Compose, Waf
 - **Technologies**: Multithreading, IPC, Shared memory, Networking, RPC
 - **Testing/CI**: GTest/GMock, GCC/Clang analyzers/sanitizers,
   Python unittest/pytest, Jenkins CI, TravisCI, GitHub Actions
