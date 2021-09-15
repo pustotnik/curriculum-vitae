@@ -41,7 +41,7 @@ want to find a job in Europe, especially in the Netherlands.
 
 ## Main Technical Skills (short list)
 - **Operating Systems**: GNU/Linux, MS Windows
-- **Programming languages**: C/C++, Python, bash (basic skill)
+- **Programming languages**: C/C++, Python, bash (middle skill)
 - **Version control**: Git, Mercurial
 - **Development Tools**: GCC, Clang, KVM/QEMU, Docker/Docker Compose, Waf
 - **Technologies**: Multithreading, IPC, Shared memory, Networking, RPC
@@ -81,7 +81,7 @@ Jun 2013 — present time
 Apr 2012 — Feb 2017
 :   **Linux Team Leader** at [Signatec](https://www.signatec.ru/) [Russia, Novosibirsk]
 
-    Managed a long-term Linux project of legal network surveillance
+    Managed a long-term Linux project of parsing/analyzing/filtering of network traffic
     with a team of 5 C/C++ developers and 1-2 QA testers.
     This project had strong requirements for performance and stability.
     Designed many parts of the architecture. Developed some important/critical code.
