@@ -2,11 +2,11 @@
 Alexander Magola
 ==================
 
-> **Location:** Russia, Novosibirsk | **Born:** 1978
+> [magola.a.s@gmail.com](mailto:magola.a.s@gmail.com) |
+[linkedin.com/in/alexander-magola](https://www.linkedin.com/in/alexander-magola) |
+Russia, Novosibirsk
 
-> [Email](mailto:magola.a.s@gmail.com) |
-[LinkedIn](https://www.linkedin.com/in/alexander-magola) |
-[GitHub](https://github.com/pustotnik) |
+> [GitHub](https://github.com/pustotnik) |
 [GitLab](https://gitlab.com/pustotnik) |
 [BitBucket](https://bitbucket.org/pustotnik/)
 
@@ -18,28 +18,27 @@ Alexander Magola
 
 ## About me
 A multi-skilled Linux software engineer and team leader with 20 years of experience.
-As a self-starter I always pay attention to the quality and performance (when necessary) of
+Always pay attention to the quality and performance (when necessary) of
 a code/product and prefer to use Linux both at work and at home.
-I like (and have a lot of experience) designing/improving project architecture
-and conducting research.
-I prefer simple but flexible solutions when possible. And it is important for me
-to find and implement the right solution.
+Like to design/improve project architecture and conduct research.
+Prefer simple but flexible solutions when possible.
+<!--
+And it is important for me to find and implement the right solution.
+-->
 
+<!--
 Interested in many things, including: Linux and relative technologies,
 distributed/networking/sync/etc technologies/systems/applications/etc,
 high load, virtual things, embedded systems, automation, open source,
 digital privacy, cyber security, etc.
+-->
 
 <!--
 I have been trying to improve my English and
 want to find a job in Europe, especially in the Netherlands.
 -->
 
-## Languages
-- **Russian**: Native speaker
-- **English**: Intermediate
-
-## Main Technical Skills (short list)
+## Main Technical Skills
 - **Operating Systems**: GNU/Linux, MS Windows
 - **Programming languages**: C/C++, Python, bash (middle skill)
 - **Version control**: Git, Mercurial
@@ -133,7 +132,7 @@ Dec 2009 — Apr 2012
     for local needs like networking, date/time, filesystem, threading, etc.
     (C++, Linux)
 
-    Initiated and installed/configured Redmine as an issue tracker for use in
+    Initiated and configured Redmine as an issue tracker for use in
     our team. Helped the team learn how to use it.
     (Debian Linux, Redmine, Nginx)
 
@@ -151,10 +150,30 @@ Dec 2009 — Apr 2012
 Nov 2007 — Nov 2009
 :   **Project Manager/Team Leader** at [Internet Service](https://inetss.ru/) [Russia, Novosibirsk]
 
+    Designed architecture and developed part of the back-end of a distributed DNS system.
+
+    Managed web searching project Assista (similar to google search) with team
+    of 2-5 front-end/back-end developers.
+    Improved/developed the project core search engine solution
+    based on Sphinx (C++ open source search engine). Carried out some sysadmin
+    tasks for the project remote computer cluster with more
+    than 100 servers (CentOS) using bash/ssh/perl. Improved
+    the project architecture.
+
+    - **_Programming languages_**: C, C++, Java, Perl, Python, Scala
+    - **_Tools and technologies_**: MSVS, GCC, Sphinx (search engine), bash, ssh,
+      Twisted (Python network framework), memcached,
+      BIND, AMQP, RabbitMQ, Thrift
+    - **_Databases_**: MySQL, PostgreSQL, BerkeleyDB
+    - **_Version control_**: SVN
+    - **_Issue tracker_**: company's own internal web application
+    - **_Operating Systems_**: MS Windows, GNU/Linux (Gentoo, CentOS)
+
+<!--
     Designed architecture and developed an experimental real-time web search system.
     (Scala, Jabber/XMPP)
 
-    Made research with some experiments for potential project of a web
+    Made research for potential project of a web
     storage for user photos/pictures.
     (Python, Java, Hadoop/Hbase/HDFS, Lucene, PostgreSQL, Thrift)
 
@@ -172,15 +191,7 @@ Nov 2007 — Nov 2009
     This project was one of ambitious projects of the
     main customer of that company.
     It was my first acquaintance with distributed systems.
-
-    - **_Programming languages_**: C, C++, Java, Perl, Python, Scala
-    - **_Tools and technologies_**: MSVS, GCC, Sphinx (search engine), bash, ssh,
-      Twisted (Python network framework), memcached,
-      BIND, AMQP, RabbitMQ, Thrift
-    - **_Databases_**: MySQL, PostgreSQL, BerkeleyDB
-    - **_Version control_**: SVN
-    - **_Issue tracker_**: company's own internal web application
-    - **_Operating Systems_**: MS Windows, GNU/Linux (Gentoo, CentOS)
+-->
 
 Nov 2006 — Oct 2007
 :   **Software Developer** at [Internet Service](https://inetss.ru/) [Russia, Novosibirsk]
@@ -204,6 +215,8 @@ Nov 2006 — Oct 2007
 Apr 2005 — Oct 2006
 :   **Software Developer** at [Technodesign](www.technodesign.ru) [Russia, Komsomolsk-on-Amur]
 
+    Participated in several projects for local billing system.
+<!--
     Participated in improvement/expanding of web site for local
     billing system. (Perl, MySQL, Linux)
 
@@ -216,6 +229,7 @@ Apr 2005 — Oct 2006
     Developed a FreeRADIUS plug-in for authentication, authorization and
     accounting internet sessions from pppd and VoIP calls from GnuGK for
     local billing system. (C, MySQL, Linux)
+-->
 
     - **_Programming languages_**: Perl, C, C++,
     - **_Tools and technologies_**: GCC, make, MySQL, H323, HTML,
@@ -226,9 +240,11 @@ Apr 2005 — Oct 2006
 Jan 2001 — Jun 2003
 :   **Software Developer** at Komsomolsk-on-Amur State Technical University ([KnASTU](https://knastu.ru/))
 
-    I was a postgraduate in KnASTU and had a task to develop a calculation program of
+    Was a postgraduate in KnASTU and had a task to develop a calculation program of
     stress-strain state of solid materials with cracks based on the boundary element method.
+<!--
     This project was a part of my PhD thesis.
+-->
 
     - **_Tools and technologies_**: MS Visual C++, MFC, STL, Win32 API
 
@@ -240,6 +256,10 @@ Sep 1995 — Jun 2000
     - **_Degree_**: Master's degree in applied mathematics (Specialist degree)
     - **_Tools and technologies_**: Turbo Pascal, Turbo C, Borland C++ Builder,
       MS VB/VBA, MS Visual C++, MFC, STL, Win32 API
+
+## Languages
+- **Russian**: Native speaker
+- **English**: Intermediate
 
 ----
 
