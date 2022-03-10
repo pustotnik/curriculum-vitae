@@ -18,20 +18,18 @@ Russia, Novosibirsk
 
 ## About me
 A multi-skilled Linux software engineer and team leader with 20 years of experience.
-Always pay attention to the quality and performance (when necessary) of
+I always pay attention to the quality and performance (when necessary) of
 a code/product and prefer to use Linux both at work and at home.
-Like to design/improve project architecture and conduct research.
-Prefer simple but flexible solutions when possible.
+I like designing/improving project architecture and conducting research.
+I prefer simple but flexible solutions when possible.
 <!--
 And it is important for me to find and implement the right solution.
 -->
 
-<!--
 Interested in many things, including: Linux and relative technologies,
 distributed/networking/sync/etc technologies/systems/applications/etc,
 high load, virtual things, embedded systems, automation, open source,
 digital privacy, cyber security, etc.
--->
 
 <!--
 I have been trying to improve my English and
@@ -60,7 +58,7 @@ Jun 2013 — present time
     build system [ZenMake](https://github.com/pustotnik/zenmake)
     for C/C++ and some other languages (Fortran, D) supporting GNU/Linux,
     MacOS and MS Windows.
-    Concentrated on making the build system easy to use, configurable via flexible
+    Was focused on making the build system easy to use, configurable via flexible
     config files and removing the need to know any programming language.
     Made it ready to use with detailed [documentation](https://zenmake.readthedocs.io/)
     and many [examples](https://github.com/pustotnik/zenmake/tree/master/demos).
@@ -105,7 +103,7 @@ Apr 2012 — Feb 2017
       - set of scripts to create a Linux firmware image based on Gentoo with ability to install
         on any computer
 
-    **Experience in brief**:
+    Experience in brief:
 
     - **_Programming languages_**: C++ (03, 11), Python, bash
     - **_Tools and technologies_**: GCC, CLang,
@@ -258,8 +256,9 @@ Sep 1995 — Jun 2000
       MS VB/VBA, MS Visual C++, MFC, STL, Win32 API
 
 ## Languages
-- **Russian**: Native speaker
-- **English**: Intermediate
+- **Russian**:   Native speaker
+- **English**:   Intermediate
+- **Ukrainian**: Basic
 
 ----
 
