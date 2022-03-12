@@ -229,7 +229,7 @@ Apr 2005 — Oct 2006
     local billing system. (C, MySQL, Linux)
 -->
 
-    - **_Programming languages_**: Perl, C, C++,
+    - **_Programming languages_**: Perl, C, C++
     - **_Tools and technologies_**: GCC, make, MySQL, H323, HTML,
       Catalyst (Perl MVC Web Framework), FreeRADIUS, VoIP (GnuGK), CVS,
       MS Visual C++, STL, WTL, XML-RPC
