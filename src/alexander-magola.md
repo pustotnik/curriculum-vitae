@@ -257,7 +257,7 @@ Sep 1995 — Jun 2000
 
 ## Languages
 - **Russian**:   Native speaker
-- **English**:   Intermediate
+- **English**:   Intermediate (B1) - Upper Intermediate (B2)
 - **Ukrainian**: Basic
 
 ----
