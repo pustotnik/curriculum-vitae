@@ -38,7 +38,7 @@ want to find a job in Europe, especially in the Netherlands.
 
 ## Main Technical Skills
 - **Operating Systems**: GNU/Linux, MS Windows
-- **Programming languages**: C/C++, Python, bash (middle skill)
+- **Programming languages**: C, C++ (03/11/14/17), Python, bash (middle skill)
 - **Version control**: Git, Mercurial
 - **Development Tools**: GCC, Clang, KVM/QEMU, Docker/Docker Compose, Waf
 - **Technologies**: Multithreading, IPC, Shared memory, Networking, RPC
