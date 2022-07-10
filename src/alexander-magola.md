@@ -17,11 +17,11 @@ Russia, Novosibirsk
 ----
 
 ## About me
-A multi-skilled Linux software engineer and team leader with 20 years of experience.
-I always pay attention to the quality and performance (when necessary) of
-a code/product and prefer to use Linux both at work and at home.
-I like designing/improving project architecture and conducting research.
-I prefer simple but flexible solutions when possible.
+A multi-skilled Linux software engineer/developer with 20 years of experience.
+I always pay attention to the quality and performance of a code/product.
+I like designing/improving project architecture and conducting research for
+solving project problems.
+And I prefer simple but flexible solutions when possible.
 <!--
 And it is important for me to find and implement the right solution.
 -->
@@ -258,7 +258,9 @@ Sep 1995 — Jun 2000
 ## Languages
 - **Russian**:   Native speaker
 - **English**:   Intermediate (B1) - Upper Intermediate (B2)
+<!--
 - **Ukrainian**: Basic
+-->
 
 ----
 
