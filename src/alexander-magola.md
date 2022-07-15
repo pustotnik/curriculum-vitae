@@ -46,6 +46,17 @@ want to find a job in Europe, especially in the Netherlands.
   Python unittest/pytest, Jenkins CI, TravisCI, GitHub Actions
 - **Familiar**: Java, Perl, Lua, PostgreSQL, MySQL, MSVC
 
+## DevOps/Linux Administration Experience
+
+- **Virtualization/Containers**: VirtualBox, KVM/QEMU (libvirt, Proxmox VE),
+  Docker (multi-stage builds), Docker Compose
+- **Configured/Used**:  ssh (+sshfs), NFS, FTP, RAID 0/5/6 (mdadm), LVM,
+  nginx, Redmine, SCM-Manager, Jenkins (configuration/administration),
+  Gitea, iptables, Kernel configuration/building, LILO/GRUB,
+  rsync, lsyncd+unison.
+- **Promoted the use**: DRBD, GlusterFS
+- **Linux Distributions**: Gentoo, ArchLinux, CentOS, Debian/Ubuntu, Slackware
+
 ## Technical Experience
 
 Jun 2013 — present time
