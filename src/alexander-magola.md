@@ -57,7 +57,7 @@ want to find a job in Europe, especially in the Netherlands.
 - **Promoted the use**: DRBD, GlusterFS
 - **Linux Distributions**: Gentoo, ArchLinux, CentOS, Debian/Ubuntu, Slackware
 
-## Technical Experience
+## Work Experience
 
 Jun 2013 — present time
 :   **Open Source Developer**
@@ -80,7 +80,7 @@ Jun 2013 — present time
     - **_Programming languages_**: Python, bash
     - **_Tools and technologies_**: GCC, CLang, MSVC, Waf, Python unittest/pytest,
       pylint, python coverage, KVM/QEMU, Docker, TravisCI, GitHub Actions,
-      Markdown, reStructuredText, Sphinx (documentation generator)
+      Markdown, reStructuredText, Sphinx (documentation generator), DBus
     - **_Version control_**: Git, Mercurial
     - **_Issue tracker_**: GitHub Issues, GitLab Issue Tracker
     - **_Operating Systems_**: GNU/Linux, MS Windows (tests only),
