@@ -19,8 +19,8 @@ Russia, Novosibirsk
 ## About me
 A multi-skilled Linux software engineer/developer with 20 years of experience.
 I always pay attention to the quality and performance of a code/product.
-I like designing/improving project architecture and conducting research for
-solving project problems.
+I like designing/improving project architecture, conducting research for
+solving project problems and simplifying complex things.
 And I prefer simple but flexible solutions when possible.
 <!--
 And it is important for me to find and implement the right solution.
@@ -28,8 +28,7 @@ And it is important for me to find and implement the right solution.
 
 Interested in many things, including: Linux and relative technologies,
 distributed/networking/sync/etc technologies/systems/applications/etc,
-high load, virtual things, embedded systems, automation, open source,
-digital privacy, cyber security, etc.
+high load, virtual things, embedded systems, automation, open source, etc.
 
 <!--
 I have been trying to improve my English and
@@ -46,6 +45,7 @@ want to find a job in Europe, especially in the Netherlands.
   Python unittest/pytest, Jenkins CI, TravisCI, GitHub Actions
 - **Familiar**: Java, Perl, Lua, PostgreSQL, MySQL, MSVC
 
+<!--
 ## DevOps/Linux Administration Experience
 
 - **Virtualization/Containers**: VirtualBox, KVM/QEMU (libvirt, Proxmox VE),
@@ -56,6 +56,7 @@ want to find a job in Europe, especially in the Netherlands.
   rsync, lsyncd+unison.
 - **Promoted the use**: DRBD, GlusterFS
 - **Linux Distributions**: Gentoo, ArchLinux, CentOS, Debian/Ubuntu, Slackware
+-->
 
 ## Work Experience
 
@@ -65,8 +66,12 @@ Jun 2013 — present time
     Developing some open source projects. Links on:
     [GitHub](https://github.com/pustotnik),  [GitLab](https://gitlab.com/pustotnik)
 
-    The most active and biggest project I have been doing recently is my own
-    build system [ZenMake](https://github.com/pustotnik/zenmake)
+    Made some performance experiments with benchmarks in C++,
+    for example benchmarks of ways to solve the task of reading big log files
+    and filtering them with a wildcard pattern:
+    [fwcmatch](https://github.com/pustotnik/playground/tree/master/fwcmatch).
+
+    Made my own build system [ZenMake](https://github.com/pustotnik/zenmake)
     for C/C++ and some other languages (Fortran, D) supporting GNU/Linux,
     MacOS and MS Windows.
     Was focused on making the build system easy to use, configurable via flexible
@@ -77,7 +82,7 @@ Jun 2013 — present time
     of the code. This system is based on [Waf](https://waf.io/) which is used
     as a framework/engine.
 
-    - **_Programming languages_**: Python, bash
+    - **_Programming languages_**: Python, C++, bash
     - **_Tools and technologies_**: GCC, CLang, MSVC, Waf, Python unittest/pytest,
       pylint, python coverage, KVM/QEMU, Docker, TravisCI, GitHub Actions,
       Markdown, reStructuredText, Sphinx (documentation generator), DBus
