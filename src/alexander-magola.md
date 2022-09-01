@@ -124,8 +124,8 @@ Apr 2012 — Feb 2017
     - **_Programming languages_**: C++ (03, 11), Python, bash
     - **_Tools and technologies_**: GCC, CLang,
       Intel TBB (mostly flow graph, spin mutexes, malloc), MessagePack, ZeroMQ,
-      Boost, GTest/GMock, Google Benchmark, Jenkins CI, Clang static analyzer, cppcheck,
-      AddressSanitizer/LeakSanitizer (GCC/Clang), KVM/QEMU
+      Boost, GTest/GMock, Google Benchmark, PCAP, Jenkins CI, Clang static analyzer, cppcheck,
+      AddressSanitizer/LeakSanitizer (GCC/Clang), KVM/QEMU, Wireshark
     - **_Databases_**: LMDB
     - **_Version control_**: Mercurial, SVN
     - **_Issue tracker_**: Redmine
