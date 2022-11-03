@@ -4,7 +4,10 @@ Alexander Magola
 
 > [magola.a.s@gmail.com](mailto:magola.a.s@gmail.com) |
 [linkedin.com/in/alexander-magola](https://www.linkedin.com/in/alexander-magola) |
+Armenia, Gyumri
+<!--
 Russia, Novosibirsk
+-->
 
 > [GitHub](https://github.com/pustotnik) |
 [GitLab](https://gitlab.com/pustotnik) |
