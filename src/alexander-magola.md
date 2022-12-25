@@ -31,7 +31,7 @@ And it is important for me to find and implement the right solution.
 
 Interested in many things, including: Linux and relative technologies,
 distributed/networking/sync/etc technologies/systems/applications/etc,
-high load, virtual things, embedded systems, automation, open source, etc.
+high load, low-latency, optimization, embedded systems, automation, open source, etc.
 
 <!--
 I have been trying to improve my English and
@@ -43,7 +43,7 @@ want to find a job in Europe, especially in the Netherlands.
 - **Programming languages**: C, C++ (03/11/14/17), Python, bash (basic skill)
 - **Version control**: Git, Mercurial
 - **Development Tools**: GCC, Clang, KVM/QEMU, Docker/Docker Compose, Waf
-- **Technologies**: Multithreading, IPC, Shared memory, Networking, RPC
+- **Technologies**: Multithreading, IPC, Shared memory, Networking (IP/TCP/UDP), RPC
 - **Testing/CI**: GTest/GMock, GCC/Clang analyzers/sanitizers,
   Python unittest/pytest, Jenkins CI, TravisCI, GitHub Actions
 - **Familiar**: Java, Perl, Lua, PostgreSQL, MySQL, MSVC
@@ -55,13 +55,17 @@ want to find a job in Europe, especially in the Netherlands.
   Docker (multi-stage builds), Docker Compose
 - **Configured/Used**:  ssh (+sshfs), NFS, FTP, RAID 0/5/6 (mdadm), LVM,
   nginx, Redmine, SCM-Manager, Jenkins (configuration/administration),
-  Gitea, iptables, Kernel configuration/building, LILO/GRUB,
-  rsync, lsyncd+unison.
+  Gitea, iptables, Kernel configuration/building, LILO/GRUB, etc.
 - **Promoted the use**: DRBD, GlusterFS
 - **Linux Distributions**: Gentoo, ArchLinux, CentOS, Debian/Ubuntu, Slackware
 -->
 
 ## Work Experience
+
+Dec 2022 — present time
+:   **Senior Software Engineer** at [EPAM Systems](https://www.epam.com/) [Armenia, Yerevan]
+
+    Nothing to describe here yet.
 
 Jun 2013 — present time
 :   **Open Source Developer**
